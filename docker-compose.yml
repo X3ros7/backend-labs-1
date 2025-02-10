@@ -32,7 +32,7 @@ services:
     ports:
       - "8002:80"
     environment:
-      WEB_DOCUMENT_ROOT: /app/web
+      WEB_DOCUMENT_ROOT: /app/public
 
   python:
     build:
